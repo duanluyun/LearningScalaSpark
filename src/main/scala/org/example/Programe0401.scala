@@ -6,7 +6,7 @@ object Model {
 
   def main(args: Array[String]): Unit = {
 
-    val p=new Person("luyun","duan")
+    val p=new Person0401("luyun","duan")
 
     println(p.age)
 
@@ -18,7 +18,7 @@ object Model {
 }
 
 
-class Person( var firstname:String,var lastname:String){
+class Person0401( var firstname:String,var lastname:String){
 
 
   val age=0
